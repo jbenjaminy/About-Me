@@ -80,6 +80,9 @@ body{
   margin-right: auto;
   margin-top: 2em;
 }
+a {
+  color: inherit;
+}
 .content-footer > p {
   color: white;
 }
@@ -92,19 +95,17 @@ body{
     height: 2.5rem;
     display: inline-block;
     margin: 1.25rem 5px;
-    border: 1px solid #eaebec;
-    padding: 0.625rem 0;
     text-align: center;
 }
 .content-footer .icons > li:hover {
     cursor: pointer;
 }
-.social .github {
+.content-footer .github {
     color: #6CC644;
 }
-.social .facebook {
+.content-footer .facebook {
     color: #4c66a4;
 }
-.social .instagram {
+.content-footer .instagram {
     color: #3f729b;
 }
