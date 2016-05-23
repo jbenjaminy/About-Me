@@ -111,8 +111,7 @@ a {
 .content-footer .instagram {
     color: #3f729b;
 }
-<<<<<<< HEAD
-=======
+
 @media only screen and (max-width: 500px) {
   .masthead {
     padding: 3em 0;
@@ -124,4 +123,4 @@ a {
     font-size: .75em;
   }
 }
->>>>>>> master
+
