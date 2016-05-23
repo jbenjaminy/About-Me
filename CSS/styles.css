@@ -90,6 +90,7 @@ a {
   background-color: #D8B698;
 }
 .content-footer .icons > li {
+    font-size: 2rem;
     border-radius: 1.25rem;
     width: 2.5rem;
     height: 2.5rem;
@@ -108,4 +109,15 @@ a {
 }
 .content-footer .instagram {
     color: #3f729b;
+}
+@media only screen and (max-width: 500px) {
+  .masthead {
+    padding: 3em 0;
+  }
+  .masthead-heading {
+    font-size: 3em;
+  }
+  .content-footer > p {
+    font-size: .75em;
+  }
 }
