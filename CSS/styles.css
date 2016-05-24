@@ -4,17 +4,21 @@ body {
   font-size: 1em;
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
 }
-body{
+
+body {
   background-color: #A5B3BF;
 }
+
 .masthead-intro,
 .masthead-heading,
 .content-footer {
   text-align: center;
 }
+
 .masthead {
   padding: 6em 0;
 }
+
 .masthead {
   background-image: url('http://i.imgur.com/ohY40Ry.jpg?1');
   background-repeat: no-repeat;
@@ -22,6 +26,7 @@ body{
   border-top: solid 1em #475C72;
   background-position: center;
 }
+
 .masthead-intro {
   margin-bottom: 0.1em;
   font-family: "Gentium Book Basic", Georgia, serif;
@@ -29,6 +34,7 @@ body{
   font-size: 2em;
   color: #182B3B;
 }
+
 .masthead-heading {
   margin-top: -0.2em;
   color: #FCE1AE;
@@ -39,6 +45,7 @@ body{
   text-transform: uppercase;
   text-shadow: 0px 5px 0px #C69477;
 }
+
 .introduction-section > p,
 .location-section > p,
 .content-footer > p {
@@ -46,10 +53,12 @@ body{
   font-weight: 300;
   letter-spacing: 0.05em;
 }
+
 .introduction-section > h1,
 .location-section > h1 {
   color: #475C72;
 }
+
 .questions-section > h1 {
   /* Typography Declarations */
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
@@ -57,6 +66,7 @@ body{
   font-weight: bold;
   color: #475C72;
 }
+
 .questions-section > h2 { 
   /* Typography Declarations */
   font-family: "Gentium Book Basic", Georgia, serif;
@@ -65,6 +75,7 @@ body{
   color: #FCE1AE;
   text-shadow: 0px 2px 0px #A89992;
 }
+
 .questions-section > p { 
   /* Typography Declarations */
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
@@ -72,6 +83,7 @@ body{
   font-weight: 300;
   letter-spacing: 0.05em;
 }
+
 .introduction-section,
 .location-section,
 .questions-section {
@@ -80,16 +92,20 @@ body{
   margin-right: auto;
   margin-top: 2em;
 }
+
 a {
   color: inherit;
 }
+
 .content-footer > p {
   color: white;
 }
+
 .content-footer {
   background-color: #D8B698;
 }
 .content-footer .icons > li {
+/* social icon styling and positioning */
     font-size: 2rem;
     border-radius: 1.25rem;
     width: 2.5rem;
@@ -98,16 +114,19 @@ a {
     margin: 1.25rem 5px;
     text-align: center;
 }
+
 .content-footer .icons > li:hover {
     cursor: pointer;
 }
+
 .content-footer .github {
     color: #6CC644;
-    text-decoration: none;
 }
+
 .content-footer .facebook {
     color: #4c66a4;
 }
+
 .content-footer .instagram {
     color: #3f729b;
 }
@@ -116,9 +135,11 @@ a {
   .masthead {
     padding: 3em 0;
   }
+
   .masthead-heading {
     font-size: 3em;
   }
+
   .content-footer > p {
     font-size: .75em;
   }
